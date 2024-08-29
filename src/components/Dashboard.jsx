@@ -13,7 +13,7 @@ export default function Dashboard(){
       ];
 
     return (
-        <div className="flex flex-col lg:flex-row gap-4 bg-[#f5f5f0] p-5">
+        <div className="flex flex-col lg:flex-row  bg-[#f5f5f0] p-5">
             {/* Sidebar */}
             <div className="w-full lg:w-1/5 mb-4 lg:mb-0">
                 <Sidebar />
@@ -48,7 +48,7 @@ export default function Dashboard(){
 
                         {/* Single Summary Card */}
                         <div className="flex justify-center mt-6">
-                            <div className="flex flex-col justify-center shadow-xl items-start p-6 gap-2 bg-white rounded-xl">
+                            <div className="flex flex-col justify-center shadow-xl items-start px-12 py-4 gap-2 bg-white rounded-xl">
                                 <h1 className="font-bold">Total Balance</h1>
                                 <span className="font-black">$1250</span>
                             </div>
